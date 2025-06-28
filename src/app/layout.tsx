@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Inter } from 'next/font/google'
+import Lottie from "lottie-react";
+import rocket from "@/public/rocket.json";
+
+<Lottie animationData={rocket} className="w-32 h-32" />
+
+const inter = Inter({ subsets: ['latin'] })
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
