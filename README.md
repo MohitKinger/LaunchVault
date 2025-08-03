@@ -12,17 +12,11 @@
 
 ---
 
-## 📱 Live Demo & Visuals
-
-*Add your live demo link here if deployed (GitHub Pages / Netlify, etc.)*
-
 ### Preview
 
 | Landing Page | Modal Popup View |
 |--------------|------------------|
 | ![LaunchVault preview](path/to/landing.png) | ![Product modal](path/to/modal.png) |
-
-*(Insert screenshots or an animated GIF here to illustrate your UI in action—for example filter interaction or modal transitions.)*
 
 ---
 
@@ -52,7 +46,4 @@
 ```bash
 git clone https://github.com/MohitKinger/LaunchVault.git
 cd LaunchVault
-# Option 1: directly open index.html
-open index.html
-# Option 2: serve via simple HTTP server
-npx http-server . -p 8080
+In terminal:- npm run dev
